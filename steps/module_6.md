@@ -74,7 +74,7 @@ Lets expand on what we have already learned and create a new app and few new end
 
 We will build an e-commerce app with an item and order endpoint. Users will be able to retrieve items in the database, place and order and retrieve order information.
 
-We need models, routers, serializers and view-sets/api-view! Let's not waist any time...
+We need models, routers, serializers and view-sets/api-view! Let's not waste any time...
 
 1) Model - Go ahead and open /ecommerce/models.py and paste in the following code.
 ```
