@@ -155,7 +155,9 @@ def report_uploaded(sender, instance, created, **kwargs):
     if created:
         Token.objects.create(user=instance)
 ```
+
 Now open /ecommerce/app.py and add the following code.
+
 ```
 from django.apps import AppConfig
 
